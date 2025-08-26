@@ -1,12 +1,13 @@
 {
   "name": "jobvoice-e2e",
   "private": true,
+  "version": "1.0.0",
+  "description": "End-to-end tests for JobVoice Prep",
   "scripts": {
     "test": "playwright test",
-    "test:headed": "playwright test --headed"
+    "show-report": "playwright show-report"
   },
   "devDependencies": {
-    "@playwright/test": "^1.45.0",
-    "dotenv": "^16.4.5"
+    "@playwright/test": "^1.46.0"
   }
 }
